@@ -12,18 +12,18 @@
 % Package pour mettre en indice
 \usepackage{subscript}
 
-% Package pour les caractères physiques
+% Package pour les caractÃ¨res physiques
 \usepackage[squaren, Gray, cdot]{SIunits}
 
 % Marges, interlignes, graphiques et colonnes multiples
 \usepackage{setspace}
 \usepackage{graphicx}
 
-% Faire un encadré
+% Faire un encadrÃ©
 \usepackage{float}
 \floatstyle{boxed}
 \newfloat{enca}{htpb}{zzz}
-\floatname{enca}{Encadré}
+\floatname{enca}{EncadrÃ©}
 
 % Page length commands go here in the preamble
 \setlength{\oddsidemargin}{-0.25in} % Left margin of 1 in + 0 in = 1 in
@@ -46,36 +46,34 @@
 \maketitle
 
 \begin{enca}[ht!]
-\caption{Réactifs}
+\caption{RÃ©actifs}
 \onehalfspacing
 
 \begin{description}
-
-\item test
 	
 \item \begin{minipage}{0.9\linewidth}
-\textbf{Acétate de sodium 3 M} (Acétate de soude ou Sel sodique de l'acide acétique; pH $5.2$).
+\textbf{AcÃ©tate de sodium 3 M} (AcÃ©tate de soude ou Sel sodique de l'acide acÃ©tique; pH $5.2$).
 \end{minipage}\hfill
 \begin{minipage}{0.14\linewidth}
 \includegraphics[width=0.8cm]{exclamation}
 \end{minipage}	
 
 \item \begin{minipage}{0.9\linewidth}
-\textbf{Alcool isopropylique} (isopropanol). Inflammable et irritant. Les symptômes de l'empoisonnement à l'isopropanol se traduisent par des maux de tête, vertiges, dépression mentale, nausées, vomissements, narcolepsie et coma.
+\textbf{Alcool isopropylique} (isopropanol). Inflammable et irritant. Les symptÃ´mes de l'empoisonnement Ã  l'isopropanol se traduisent par des maux de tÃªte, vertiges, dÃ©pression mentale, nausÃ©es, vomissements, narcolepsie et coma.
 \end{minipage}\hfill
 \begin{minipage}{0.14\linewidth}
 \includegraphics[width=1.5cm]{iso}
 \end{minipage}
 
 \item \begin{minipage}{0.9\linewidth}
-\textbf{Azote liquide}. À manipuler avec des gants anti-froid et des gants nitriles par-dessus.
+\textbf{Azote liquide}. Ã€ manipuler avec des gants anti-froid et des gants nitriles par-dessus.
 \end{minipage}\hfill
 \begin{minipage}{0.14\linewidth}
 \includegraphics[width=2.2cm]{azote}
 \end{minipage}
 
 \item \begin{minipage}{0.9\linewidth}
-\textbf{Chloroforme} (trichlorométhane) Hautement volatil.  Le chloroforme a tendance à se décomposer en donnant du chlorure d'hydrogène, du chlore et de l'oxychlorure de carbone (phosgène) qui est un produit extrêmement toxique. Absorbé ou inhalé à forte concentration, il peut conduire à un coma, voire entraîner des troubles respiratoires et cardiaques qui peuvent s'avérer mortels.
+\textbf{Chloroforme} (trichloromÃ©thane) Hautement volatil.  Le chloroforme a tendance Ã  se dÃ©composer en donnant du chlorure d'hydrogÃ¨ne, du chlore et de l'oxychlorure de carbone (phosgÃ¨ne) qui est un produit extrÃªmement toxique. AbsorbÃ© ou inhalÃ© Ã  forte concentration, il peut conduire Ã  un coma, voire entraÃ®ner des troubles respiratoires et cardiaques qui peuvent s'avÃ©rer mortels.
 \end{minipage}\hfill
 \begin{minipage}{0.14\linewidth}
 \includegraphics[width=2.2cm]{chloro}
@@ -87,9 +85,9 @@
 
 \item \textbf{Javel} (Chlorux\textsuperscript{\textregistered})
 
-\item \begin{minipage}{0.9\linewidth}\textbf{PBS $1$X} (tampon phosphate salin), contient du  chlorure de sodium, du phosphate disodique, du phosphate monopotassique et un peu de chlorure de potassium. Le tout traité à l'eau avec du \textbf{DEPC} (Pyrocarbonate d'éthyle,  réagit spécifiquement avec les acides aminés histidine et, dans une moindre mesure, tyrosine des protéines. Il inactive certaines protéines, comme les ribonucléases). Pour enlever le DEPC, le flacon est autoclavé.\end{minipage}
+\item \begin{minipage}{0.9\linewidth}\textbf{PBS $1$X} (tampon phosphate salin), contient du  chlorure de sodium, du phosphate disodique, du phosphate monopotassique et un peu de chlorure de potassium. Le tout traitÃ© Ã  l'eau avec du \textbf{DEPC} (Pyrocarbonate d'Ã©thyle,  rÃ©agit spÃ©cifiquement avec les acides aminÃ©s histidine et, dans une moindre mesure, tyrosine des protÃ©ines. Il inactive certaines protÃ©ines, comme les ribonuclÃ©ases). Pour enlever le DEPC, le flacon est autoclavÃ©.\end{minipage}
 
-\item \begin{minipage}{0.9\linewidth}\textbf{RNAsecure Reagent}. Peut provoquer une légère irritation cutanée. Non dangéreux. Contient du  dithiothréitol (DTT) qui est un agent réducteur fort. Permet de prévenir la formation de ponts disulfures intramoléculaires et intermoléculaires. Peut aussi réduire les ponts disulfures enfouis en conditions dénaturantes.\end{minipage}
+\item \begin{minipage}{0.9\linewidth}\textbf{RNAsecure Reagent}. Peut provoquer une lÃ©gÃ¨re irritation cutanÃ©e. Non dangÃ©reux. Contient du  dithiothrÃ©itol (DTT) qui est un agent rÃ©ducteur fort. Permet de prÃ©venir la formation de ponts disulfures intramolÃ©culaires et intermolÃ©culaires. Peut aussi rÃ©duire les ponts disulfures enfouis en conditions dÃ©naturantes.\end{minipage}
 
 \item \begin{minipage}{0.9\linewidth}
 \textbf{RNASE Away\textsuperscript{\textregistered}}, contient de l'alkali hydroxide, irritant pour les yeux et la peau.
@@ -110,7 +108,7 @@
 \end{enca}
 
 \begin{enca}[ht!]
-\caption{Matériels}
+\caption{MatÃ©riels}
 \onehalfspacing
 
 \begin{description}
@@ -119,7 +117,7 @@
 
 \item \textbf{Bain Marie} Dry Bath FB15101 Fisher Scientific\texttrademark ou Accublck\texttrademark Digital Dry Bath Labnet International Inc.
 
-\item \textbf{Boîtes de Petri}.
+\item \textbf{BoÃ®tes de Petri}.
 
 \item \textbf{Broyeur} Retsch\textsuperscript{\textregistered} MM$400$.
 	
@@ -135,7 +133,7 @@
 
 \item \textbf{Scalpels}.
 
-\item \textbf{Tubes eppendorf\textsuperscript{\textregistered}} $1.5$ mL (nombre d'échantillon x 7) et $2$ mL (nombre d'échantillon x 2).
+\item \textbf{Tubes eppendorf\textsuperscript{\textregistered}} $1.5$ mL (nombre d'Ã©chantillon x 7) et $2$ mL (nombre d'Ã©chantillon x 2).
 
 \item \textbf{Tubes Falcon\texttrademark} $15$ mL (x 1) et $50$ mL (x 8).
 
@@ -147,23 +145,23 @@
 
 \begin{description}
 
-\item Tubes eppendorf\textsuperscript{\textregistered} $2$ mL  x 2 x  nombre d'échantillon avec simplement le code de l'individu.
+\item Tubes eppendorf\textsuperscript{\textregistered} $2$ mL  x 2 x  nombre d'Ã©chantillon avec simplement le code de l'individu.
 
-\item Tubes eppendorf\textsuperscript{\textregistered} $1.5$ mL x nombre d'échantillon avec le code de l'individu et un ``S'' pour ``ARN stock''.
+\item Tubes eppendorf\textsuperscript{\textregistered} $1.5$ mL x nombre d'Ã©chantillon avec le code de l'individu et un ``S'' pour ``ARN stock''.
 
-\item Tubes eppendorf\textsuperscript{\textregistered} $1.5$ mL x nombre d'échantillon avec le code de l'individu et un ``+'' pour ``traitement avant DNAse''.
+\item Tubes eppendorf\textsuperscript{\textregistered} $1.5$ mL x nombre d'Ã©chantillon avec le code de l'individu et un ``+'' pour ``traitement avant DNAse''.
 
-\item Tubes eppendorf\textsuperscript{\textregistered} $1.5$ mL x nombre d'échantillon avec le code de l'individu et un ``++'' pour ``traitement après DNAse''.
+\item Tubes eppendorf\textsuperscript{\textregistered} $1.5$ mL x nombre d'Ã©chantillon avec le code de l'individu et un ``++'' pour ``traitement aprÃ¨s DNAse''.
 
-\item Tubes eppendorf\textsuperscript{\textregistered} $1.5$ mL x nombre d'échantillon avec le code de l'individu et un ``Ag. Avt.'' pour ``traitement au Bioanalyzer\textsuperscript{\textregistered} avant DNAse''.
+\item Tubes eppendorf\textsuperscript{\textregistered} $1.5$ mL x nombre d'Ã©chantillon avec le code de l'individu et un ``Ag. Avt.'' pour ``traitement au Bioanalyzer\textsuperscript{\textregistered} avant DNAse''.
 
-\item Tubes eppendorf\textsuperscript{\textregistered} $1.5$ mL x nombre d'échantillon avec le code de l'individu et un ``Ag. Ap.'' pour ``traitement au Bioanalyzer\textsuperscript{\textregistered} après DNAse''.
+\item Tubes eppendorf\textsuperscript{\textregistered} $1.5$ mL x nombre d'Ã©chantillon avec le code de l'individu et un ``Ag. Ap.'' pour ``traitement au Bioanalyzer\textsuperscript{\textregistered} aprÃ¨s DNAse''.
 
-\item Tubes eppendorf\textsuperscript{\textregistered} $1.5$ mL x nombre d'échantillon avec le code de l'individu et un ``Ap. Pu.'' pour ``traitement après nettoyage (purification)''.
+\item Tubes eppendorf\textsuperscript{\textregistered} $1.5$ mL x nombre d'Ã©chantillon avec le code de l'individu et un ``Ap. Pu.'' pour ``traitement aprÃ¨s nettoyage (purification)''.
 
-\item Tubes eppendorf\textsuperscript{\textregistered} $1.5$ mL x nombre d'échantillon avec le code de l'individu et un ``Fin'' pour ``Final''.
+\item Tubes eppendorf\textsuperscript{\textregistered} $1.5$ mL x nombre d'Ã©chantillon avec le code de l'individu et un ``Fin'' pour ``Final''.
 
-et $2$ mL (nombre d'échantillon x 2).
+et $2$ mL (nombre d'Ã©chantillon x 2).
 
 \item Colonnes filtres du PureLink\texttrademark RNA Mini Kit x nombre d'echantillon avec simplement le code de l'individu.
 
@@ -177,29 +175,29 @@ Il existe deux techniques, soit par le broyage du tissu mou avec billes, soit pa
 
 \paragraph{Broyage; technique des billes}
 
-\subparagraph{Préparation de la paillasse}
+\subparagraph{PrÃ©paration de la paillasse}
 
 Mettre des gants et une blouse.
-Nettoyage de la paillasse à l'eau de javel, puis à l'éthanol.
-Récupération des échantillons dans le frigidaire à $4$ \degre C. Mise en glace des échantillons. Labellisation des eppendorf\textsuperscript{\textregistered} $2$ mL (correspondant au nombre d'échantillon multiplié par $2$). Placer $4$ billes d'inox à l'aide d'une pince dans chaque tube eppendorf\textsuperscript{\textregistered} $2$ mL.
+Nettoyage de la paillasse Ã  l'eau de javel, puis Ã  l'Ã©thanol.
+RÃ©cupÃ©ration des Ã©chantillons dans le frigidaire Ã  $4$ \degre C. Mise en glace des Ã©chantillons. Labellisation des eppendorf\textsuperscript{\textregistered} $2$ mL (correspondant au nombre d'Ã©chantillon multipliÃ© par $2$). Placer $4$ billes d'inox Ã  l'aide d'une pince dans chaque tube eppendorf\textsuperscript{\textregistered} $2$ mL.
 
-\subparagraph{Travail sous hôte}
+\subparagraph{Travail sous hÃ´te}
 
 \begin{description}
 
-\item Préparer $4$ tubes Falcon\texttrademark dans un portoir. Dans $2$ tubes, placer de l'éthanol à ras-bord. Dans les deux autres, placer la solution de PBS aussi jusqu'à ras-bord. 
+\item PrÃ©parer $4$ tubes Falcon\texttrademark dans un portoir. Dans $2$ tubes, placer de l'Ã©thanol Ã  ras-bord. Dans les deux autres, placer la solution de PBS aussi jusqu'Ã  ras-bord. 
 
-\item Prendre le Trizol\textsuperscript{\textregistered} (attention, le Trizol\textsuperscript{\textregistered} peut faire des trous dans les gants !) situé dans le frigidaire de droite. Le parafilm sur les bouchons sert à éviter l'évaporation des produits. Penser à prendre un stock de papier. Mettre du Trizol\textsuperscript{\textregistered} dans un petit tube Falcon\texttrademark et le mettre dans la glace. Mettre $1.5$ mL de Trizol\textsuperscript{\textregistered} dans chaque tube eppendorf\textsuperscript{\textregistered} de $2$ mL (ceux avec les billes). Placer les tubes dans la glace. 
+\item Prendre le Trizol\textsuperscript{\textregistered} (attention, le Trizol\textsuperscript{\textregistered} peut faire des trous dans les gants !) situÃ© dans le frigidaire de droite. Le parafilm sur les bouchons sert Ã  Ã©viter l'Ã©vaporation des produits. Penser Ã  prendre un stock de papier. Mettre du Trizol\textsuperscript{\textregistered} dans un petit tube Falcon\texttrademark et le mettre dans la glace. Mettre $1.5$ mL de Trizol\textsuperscript{\textregistered} dans chaque tube eppendorf\textsuperscript{\textregistered} de $2$ mL (ceux avec les billes). Placer les tubes dans la glace. 
 
-\item Faire tourner la centrifugeuse à vide à 4 \degre C pour la refroidir. 
+\item Faire tourner la centrifugeuse Ã  vide Ã  4 \degre C pour la refroidir. 
 
-\item Prendre une boite de Pétri et l'ouvrir. Prendre un échantillon avec une pince nettoyée au préalable deux fois à l'éthanol (ceux des deux tubes Falcon\texttrademark), puis plongée dans le PBS. Cet échantillon est lavé au PBS, à l'aide d'une pipette 1000 et du $4^{\text{ième}}$ tube Falcon\texttrademark contenant le PBS. Sécher l'échantillon sur du papier. Le hacher au scalpel (nettoyé selon le même procédé que la pince) l'échantillon dans la boite de Pétri. Placer l'échantillon dans le tube eppendorf\textsuperscript{\textregistered} 2 mL. 
+\item Prendre une boite de PÃ©tri et l'ouvrir. Prendre un Ã©chantillon avec une pince nettoyÃ©e au prÃ©alable deux fois Ã  l'Ã©thanol (ceux des deux tubes Falcon\texttrademark), puis plongÃ©e dans le PBS. Cet Ã©chantillon est lavÃ© au PBS, Ã  l'aide d'une pipette 1000 et du $4^{\text{iÃ¨me}}$ tube Falcon\texttrademark contenant le PBS. SÃ©cher l'Ã©chantillon sur du papier. Le hacher au scalpel (nettoyÃ© selon le mÃªme procÃ©dÃ© que la pince) l'Ã©chantillon dans la boite de PÃ©tri. Placer l'Ã©chantillon dans le tube eppendorf\textsuperscript{\textregistered} 2 mL. 
 
-\item  Dès qu'il y a $10$ tubes eppendorf\textsuperscript{\textregistered} de prêt, les placer au broyeur Retsch\textsuperscript{\textregistered} MM$400$.Penser à équilibrer si besoin. Mettre la pieuvre (extracteur) en marche suite au Trizol\textsuperscript{\textregistered}. Laisser broyer (fréquence 30 par secondes) pendant 17 minutes pour les poches perlières et 15 minutes pour les greffons/manteau. 
+\item  DÃ¨s qu'il y a $10$ tubes eppendorf\textsuperscript{\textregistered} de prÃªt, les placer au broyeur Retsch\textsuperscript{\textregistered} MM$400$.Penser Ã  Ã©quilibrer si besoin. Mettre la pieuvre (extracteur) en marche suite au Trizol\textsuperscript{\textregistered}. Laisser broyer (frÃ©quence 30 par secondes) pendant 17 minutes pour les poches perliÃ¨res et 15 minutes pour les greffons/manteau. 
 
-\item Centrifuger ensuite à $12 000$ G pendant $10$ minutes à 4 \degre C (avec les billes). Cette étape est nécessaire car les échantillons de poches et de greffons sont riches en protéines et en polysaccharides. 
+\item Centrifuger ensuite Ã  $12 000$ G pendant $10$ minutes Ã  4 \degre C (avec les billes). Cette Ã©tape est nÃ©cessaire car les Ã©chantillons de poches et de greffons sont riches en protÃ©ines et en polysaccharides. 
 
-\item Récupérer la phase supérieure (pipeter tout le liquide à l'opposé du culot), puis placer la dans des tubes eppendorf\textsuperscript{\textregistered} $2$ ml. Bien prendre un cône par échantillon, puis le jeter dans les déchets contaminés aux phénols. Stockage à $4$ \degre C.
+\item RÃ©cupÃ©rer la phase supÃ©rieure (pipeter tout le liquide Ã  l'opposÃ© du culot), puis placer la dans des tubes eppendorf\textsuperscript{\textregistered} $2$ ml. Bien prendre un cÃ´ne par Ã©chantillon, puis le jeter dans les dÃ©chets contaminÃ©s aux phÃ©nols. Stockage Ã  $4$ \degre C.
 
 \end{description}
 
@@ -207,73 +205,73 @@ Récupération des échantillons dans le frigidaire à $4$ \degre C. Mise en glace d
 
 Nettoyer les broyeurs en inox\textsuperscript{\textregistered} avec du RNASE Away\textsuperscript{\textregistered} (ou au DEPC si il n'y en a plus).
 Ce protocole se base sur celui ci dessus. Mettre des \textbf{gants anti-froid sous les gants nitriles}.
-Les broyeurs en inox sont plongés dans l'azote liquide. Tant que l'azote bout, les broyeurs ne seront pas disponibles (prêts). De même, les spatules et pinces sont à plonger dedans. Il faut laisser refroidir longtemps, sinon l'échantillon va venir se coller aux instruments et faire une pâte. 
+Les broyeurs en inox sont plongÃ©s dans l'azote liquide. Tant que l'azote bout, les broyeurs ne seront pas disponibles (prÃªts). De mÃªme, les spatules et pinces sont Ã  plonger dedans. Il faut laisser refroidir longtemps, sinon l'Ã©chantillon va venir se coller aux instruments et faire une pÃ¢te. 
 
 \begin{description}
 
-\item Penser à faire tourner la centrifugeuse à vide à 4\degre C pour la faire refroidir.
+\item Penser Ã  faire tourner la centrifugeuse Ã  vide Ã  4\degre C pour la faire refroidir.
 
-\item Récupérer l'échantillon selon le même protocole que pour le broyage aux billes, mais sans hacher l'échantillon (Nettoyage au PBS..etc).
+\item RÃ©cupÃ©rer l'Ã©chantillon selon le mÃªme protocole que pour le broyage aux billes, mais sans hacher l'Ã©chantillon (Nettoyage au PBS..etc).
 
-\item Sécher l'échantillon avec du papier absorbant. Placer l'échantillon dans du papier aluminium qui a été prétraité au RNASE Away\textsuperscript{\textregistered}. Fermer l'aluminium, puis le plonger dans l'azote liquide.
+\item SÃ©cher l'Ã©chantillon avec du papier absorbant. Placer l'Ã©chantillon dans du papier aluminium qui a Ã©tÃ© prÃ©traitÃ© au RNASE Away\textsuperscript{\textregistered}. Fermer l'aluminium, puis le plonger dans l'azote liquide.
 
-\item Récupérer l'échantillon avec une pince (préalablement plongée dans l'azote liquide) puis le mettre dans les broyeurs en acier avec une grosse bille. Agir vite. Faire un broyage pendant $20$ secondes (fréquence 30 par secondes). L'échantillon pourrait possiblement moins coller avec un raccourcissement du temps de broyage (15 secondes).
+\item RÃ©cupÃ©rer l'Ã©chantillon avec une pince (prÃ©alablement plongÃ©e dans l'azote liquide) puis le mettre dans les broyeurs en acier avec une grosse bille. Agir vite. Faire un broyage pendant $20$ secondes (frÃ©quence 30 par secondes). L'Ã©chantillon pourrait possiblement moins coller avec un raccourcissement du temps de broyage (15 secondes).
 
-\item Prendre une spatule et gratter un maximum d'échantillon. Dès que la poudre d'échantillon colle à la spatule, il faut replonger la spatule dans l'azote. Placer la poudre dans un tube eppendorf\textsuperscript{\textregistered} préalablement rempli d'1.5 ml de Trizol\textsuperscript{\textregistered} et taré sur une balance (le tout sur un portoir en polystyrène). Reporter la mesure de la masse de la poudre. 
+\item Prendre une spatule et gratter un maximum d'Ã©chantillon. DÃ¨s que la poudre d'Ã©chantillon colle Ã  la spatule, il faut replonger la spatule dans l'azote. Placer la poudre dans un tube eppendorf\textsuperscript{\textregistered} prÃ©alablement rempli d'1.5 ml de Trizol\textsuperscript{\textregistered} et tarÃ© sur une balance (le tout sur un portoir en polystyrÃ¨ne). Reporter la mesure de la masse de la poudre. 
 
 \item Placer les tubes eppendorf\textsuperscript{\textregistered} dans la glace.
 
-\item Centrifugation 12.000 G, à  4 \degre C, pendant 10 minutes.
+\item Centrifugation 12.000 G, Ã   4 \degre C, pendant 10 minutes.
 
-\item Récupérer le surnageant et le placer dans des nouveaux tubes eppendorf\textsuperscript{\textregistered} $2$ ml. Stocker dans la glace.
+\item RÃ©cupÃ©rer le surnageant et le placer dans des nouveaux tubes eppendorf\textsuperscript{\textregistered} $2$ ml. Stocker dans la glace.
 
 \end{description}
 
 \subsection{Extraction}
 
-\paragraph{Séparation des phases}
+\paragraph{SÃ©paration des phases}
 
 \begin{description}
 
-\item Faire tourner la centrifugeuse à vide à 4 \degre C pour la refroidir. 
+\item Faire tourner la centrifugeuse Ã  vide Ã  4 \degre C pour la refroidir. 
 
-\item Ajouter $300$ \micro L de chloroforme (1V/5V) dans chaque tube placé dans la glace (tout comme le tube de chloroforme). 
+\item Ajouter $300$ \micro L de chloroforme (1V/5V) dans chaque tube placÃ© dans la glace (tout comme le tube de chloroforme). 
 
-\item Agiter par inversion les tubes une vingtaine de fois, délicatement, sans faire mousser. 
+\item Agiter par inversion les tubes une vingtaine de fois, dÃ©licatement, sans faire mousser. 
 
-\item Incuber pendant $3$ minutes à température ambiante. 
+\item Incuber pendant $3$ minutes Ã  tempÃ©rature ambiante. 
 
-\item Centrifuger à 12.000 G pendant $12$ minutes à $4$ \degre C. 
+\item Centrifuger Ã  12.000 G pendant $12$ minutes Ã  $4$ \degre C. 
 
 \end{description}
 
-\paragraph{Précipitation d'ARN}
+\paragraph{PrÃ©cipitation d'ARN}
 
 \begin{description}
 
-\item Transférer avec beaucoup d'attention la phase aqueuse supérieure dans un nouveau tube de $1.5$ mL (ceux notés avec ``S''), à l'aide d'une pipette 1000 \micro L (penser à changer de cônes à chaque fois). Il ne faut aspirer que la surface, si le précipité blanc/rose est aussi aspiré, il faut re-centrifuger. 
+\item TransfÃ©rer avec beaucoup d'attention la phase aqueuse supÃ©rieure dans un nouveau tube de $1.5$ mL (ceux notÃ©s avec ``S''), Ã  l'aide d'une pipette 1000 \micro L (penser Ã  changer de cÃ´nes Ã  chaque fois). Il ne faut aspirer que la surface, si le prÃ©cipitÃ© blanc/rose est aussi aspirÃ©, il faut re-centrifuger. 
 
-\item Placer les échantillons sur la glace.
+\item Placer les Ã©chantillons sur la glace.
 
 \item Ajouter $375$ \micro L d'alcool isopropylique et $375$  \micro L de solution HIGH SALT.
 
 \item Agiter vigoureusement par inversion des tubes.
 
-\item Incuber pendant $12$ minutes à température ambiante. 
+\item Incuber pendant $12$ minutes Ã  tempÃ©rature ambiante. 
 
-\item Centrifuger à $12.000$ G pendant $10$ minutes à $4$ \degre C. 
+\item Centrifuger Ã  $12.000$ G pendant $10$ minutes Ã  $4$ \degre C. 
 
 \end{description}
 
-\paragraph{Lavage des échantillons}
+\paragraph{Lavage des Ã©chantillons}
 
 \begin{description}
 
-\item Retirer le surnageant par inversion des tubes pour ne garder que le culot. Jeter le surnageant dans un bécher en faisant attention que le culot ne se détache pas. Sécher le bout du tube avec du papier absorbant. Placer les échantillons sur la glace.
+\item Retirer le surnageant par inversion des tubes pour ne garder que le culot. Jeter le surnageant dans un bÃ©cher en faisant attention que le culot ne se dÃ©tache pas. SÃ©cher le bout du tube avec du papier absorbant. Placer les Ã©chantillons sur la glace.
 
-\item Ajouter $900$ \micro L d'éthanol $75$ \% et mélanger doucement.
+\item Ajouter $900$ \micro L d'Ã©thanol $75$ \% et mÃ©langer doucement.
 
-\item Centrifuger à $10.000$ G pendant $10$ minutes à $4$\degre C.
+\item Centrifuger Ã  $10.000$ G pendant $10$ minutes Ã  $4$\degre C.
 
 \end{description}
 
@@ -281,60 +279,60 @@ Les broyeurs en inox sont plongés dans l'azote liquide. Tant que l'azote bout, l
 
 \begin{description}
 
-\item Chercher le RNA secure reagant pour qu'il décongèle.
+\item Chercher le RNA secure reagant pour qu'il dÃ©congÃ¨le.
 
-\item Retirer l'éthanol en utilisant une pipette.
+\item Retirer l'Ã©thanol en utilisant une pipette.
 
-\item Sécher pendant $10$ minutes en laissant les tubes ouverts sur la glace pour enlever les vapeurs. Vérifier qu'il n'y a plus de gouttes. Laisser encore ouvert si besoin.
+\item SÃ©cher pendant $10$ minutes en laissant les tubes ouverts sur la glace pour enlever les vapeurs. VÃ©rifier qu'il n'y a plus de gouttes. Laisser encore ouvert si besoin.
 
-\item Ajouter 90 \micro L de RNA secure reagant (inhibiteur de RNase) directement sur le culot. Bien homogénéiser en faisant des aller-retours avec la pipette (Changer de cône à chaque fois).
+\item Ajouter 90 \micro L de RNA secure reagant (inhibiteur de RNase) directement sur le culot. Bien homogÃ©nÃ©iser en faisant des aller-retours avec la pipette (Changer de cÃ´ne Ã  chaque fois).
 
-\item Incuber dans un bain-marie pendant $5$ minutes à $65$\degre C tout en agitant régulièrement les échantillons (mais ne pas vortexer). Possibilité de doser avant la re-précipitation si il y a une problème de culot ou une faible quantité de tissu. 
+\item Incuber dans un bain-marie pendant $5$ minutes Ã  $65$\degre C tout en agitant rÃ©guliÃ¨rement les Ã©chantillons (mais ne pas vortexer). PossibilitÃ© de doser avant la re-prÃ©cipitation si il y a une problÃ¨me de culot ou une faible quantitÃ© de tissu. 
 
 \end{description}
 
-\paragraph{Précipitation de l'ARN avec l'Acétate de sodium 3 M}
+\paragraph{PrÃ©cipitation de l'ARN avec l'AcÃ©tate de sodium 3 M}
 
 \begin{description}
 
-\item Ajouter $10$ \micro L d'acétate de sodium 3 M (change le pH pour faciliter la précipitation d'ARN). Agiter doucement et faire une mini-centri de paillasse ($10$ secondes.)
+\item Ajouter $10$ \micro L d'acÃ©tate de sodium 3 M (change le pH pour faciliter la prÃ©cipitation d'ARN). Agiter doucement et faire une mini-centri de paillasse ($10$ secondes.)
 
-\item Ajouter $100$ \micro L d'alcool isopropylique (v/v), puis bien mélanger avec une pipette.
+\item Ajouter $100$ \micro L d'alcool isopropylique (v/v), puis bien mÃ©langer avec une pipette.
 
-\item Incuber pendant $10$ minutes à température ambiante.
+\item Incuber pendant $10$ minutes Ã  tempÃ©rature ambiante.
 
-\item Centrifuger à $12.000$ G pendant $10$ minutes à $4$ \degre C.
+\item Centrifuger Ã  $12.000$ G pendant $10$ minutes Ã  $4$ \degre C.
 
 \item Retirer l'alcool isopropylique par inversion des tubes sur du papier absorbant.
 
-\item Placer les échantillons sur la glace. Ajouter $500$ \micro L d'éthanol à $75$ \% et mélanger doucement.
+\item Placer les Ã©chantillons sur la glace. Ajouter $500$ \micro L d'Ã©thanol Ã  $75$ \% et mÃ©langer doucement.
 
-\item  Centrifuger à $10.000$ G pendant $5$ minutes à $4$ \degre C.
+\item  Centrifuger Ã  $10.000$ G pendant $5$ minutes Ã  $4$ \degre C.
 
-\item Retirer l'éthanol en utilisant une pipette.
+\item Retirer l'Ã©thanol en utilisant une pipette.
 
-\item Placer les échantillons avec les tubes ouverts sur glace pendant $4$ minutes.
+\item Placer les Ã©chantillons avec les tubes ouverts sur glace pendant $4$ minutes.
 
 \item Ajouter $25$ \micro L d'eau RNase-free (= eau biomol) directement sur le culot. 
 
-\item Incuber dans un bain marie pendant $4$ minutes à $65$ \degre C. Remuer les échanitllons en tapotant sur le culot.
+\item Incuber dans un bain marie pendant $4$ minutes Ã  $65$ \degre C. Remuer les Ã©chanitllons en tapotant sur le culot.
 
-\item Placer directement les échantillons sur glace.
+\item Placer directement les Ã©chantillons sur glace.
 
-\item Doser les échantillons au NanoDrop\textsuperscript{\textregistered} en utilisant $1$ \micro L.
+\item Doser les Ã©chantillons au NanoDrop\textsuperscript{\textregistered} en utilisant $1$ \micro L.
 
-\item Aliquoter $2$ \micro L dans un autre tube $1.5$ mL pour vérifier plus tard au Bioanalyzer\textsuperscript{\textregistered} avant traitement, ceux notés ``Ag-Avt'' pour Avant agilent, signifiant que l'échantillon n'a pas été traité à la DNase.
+\item Aliquoter $2$ \micro L dans un autre tube $1.5$ mL pour vÃ©rifier plus tard au Bioanalyzer\textsuperscript{\textregistered} avant traitement, ceux notÃ©s ``Ag-Avt'' pour Avant agilent, signifiant que l'Ã©chantillon n'a pas Ã©tÃ© traitÃ© Ã  la DNase.
 
-\item Nous avons donc pour chaque échantillon, un tube de $2$ \micro L et un autre tube de $22$ \micro L (ceux notés avec ``S''). 
+\item Nous avons donc pour chaque Ã©chantillon, un tube de $2$ \micro L et un autre tube de $22$ \micro L (ceux notÃ©s avec ``S''). 
 
-\item Congeler les échantillons à $4$ \degre C.
+\item Congeler les Ã©chantillons Ã  $4$ \degre C.
 
 \end{description}
 
-\section{Traitement à la DNase}
+\section{Traitement Ã  la DNase}
 
-Il faut d'abord faire des calculs afin de connaître le volume que nous prendrons des tubes d'ARN stock (ceux notés ``S'') pour avoir la même quantité d'ARN dans tous les tubes. Ici nous cherchons à avoir une quantité équivalente (en \micro L) pour $4$ \micro g d'ARN. A partir des données du Nanodrop, et de la colonne des concentrations ng/\micro L, convertir dans une autre colonne en \micro g/\micro L (diviser par 1000), dans une autre colonne multiplier ces données par $25$ pour avoir la quantité d'ARN totale en \micro g. Dans une autre colonne, afin d'avoir le volume équivalent pour 4 \micro g en \micro L, faire $4$ divisé par la concentration en \micro g/\micro L. Dans la colonne suivante, calculer le volume d'eau à compléter pour avoir 22 \micro L au total.\\
-Réaliser ces dilutions dans des nouveaux tubes eppendorf\textsuperscript{\textregistered} $1.5$ ml labélisé avec un plus ce qui signifie qu'il n'a pas encore été traité à la DNase.
+Il faut d'abord faire des calculs afin de connaÃ®tre le volume que nous prendrons des tubes d'ARN stock (ceux notÃ©s ``S'') pour avoir la mÃªme quantitÃ© d'ARN dans tous les tubes. Ici nous cherchons Ã  avoir une quantitÃ© Ã©quivalente (en \micro L) pour $4$ \micro g d'ARN. A partir des donnÃ©es du Nanodrop, et de la colonne des concentrations ng/\micro L, convertir dans une autre colonne en \micro g/\micro L (diviser par 1000), dans une autre colonne multiplier ces donnÃ©es par $25$ pour avoir la quantitÃ© d'ARN totale en \micro g. Dans une autre colonne, afin d'avoir le volume Ã©quivalent pour 4 \micro g en \micro L, faire $4$ divisÃ© par la concentration en \micro g/\micro L. Dans la colonne suivante, calculer le volume d'eau Ã  complÃ©ter pour avoir 22 \micro L au total.\\
+RÃ©aliser ces dilutions dans des nouveaux tubes eppendorf\textsuperscript{\textregistered} $1.5$ ml labÃ©lisÃ© avec un plus ce qui signifie qu'il n'a pas encore Ã©tÃ© traitÃ© Ã  la DNase.
 
 \subsection{DNase par le kit Ambion\textsuperscript{\textregistered} RNA de Life Tecnologies\texttrademark (AM$1906$)}
 
@@ -346,25 +344,25 @@ Réaliser ces dilutions dans des nouveaux tubes eppendorf\textsuperscript{\textre
 
 \begin{description}
 
-\item Ajouter $1$/$10$ volume de DNase Tampon 1 10X (10X DNase 1 Buffer, penser à la vortexer) (donc un ajout de $2.5$ \micro L de Tampon; attention ce tampon contient du glycérol) et de $0.5$ \micro L de DNase 1 (à ne surtout pas vortexer !) dans chaque tube d'échantillon des  $22$ \micro L (possibilité de faire un mix avant). Nous avons donc au final $25$ \micro L pour chaque tube.
+\item Ajouter $1$/$10$ volume de DNase Tampon 1 10X (10X DNase 1 Buffer, penser Ã  la vortexer) (donc un ajout de $2.5$ \micro L de Tampon; attention ce tampon contient du glycÃ©rol) et de $0.5$ \micro L de DNase 1 (Ã  ne surtout pas vortexer !) dans chaque tube d'Ã©chantillon des  $22$ \micro L (possibilitÃ© de faire un mix avant). Nous avons donc au final $25$ \micro L pour chaque tube.
 
 \item Faire une mini centrifugeuse de paillasse pendant $10$ secondes.
 
-\item Incuber à $37$ \degre C pendant $25$ minutes.
+\item Incuber Ã  $37$ \degre C pendant $25$ minutes.
 
-\item Vortexer le tube mère  de résine qui correspond à des micro-billes (reagent). Ajouter $0.1$ volume de cette résine (soit $2.5$ \micro L). Nous avons donc maintenant $27.5$ \micro L.
+\item Vortexer le tube mÃ¨re  de rÃ©sine qui correspond Ã  des micro-billes (reagent). Ajouter $0.1$ volume de cette rÃ©sine (soit $2.5$ \micro L). Nous avons donc maintenant $27.5$ \micro L.
 
-\item Incuber pendant $2$ minutes à température ambiante en remuant manuellement les échantillons régulièrement.
+\item Incuber pendant $2$ minutes Ã  tempÃ©rature ambiante en remuant manuellement les Ã©chantillons rÃ©guliÃ¨rement.
 
-\item Centrifuger à $10.000$ G pendant $1.5$ minutes à température ambiante.
+\item Centrifuger Ã  $10.000$ G pendant $1.5$ minutes Ã  tempÃ©rature ambiante.
 
-\item Récupérer le surnageant (prendre $24$ \micro L) et les placer dans des nouveaux tubes $1.5$ mL, ceux notés avec deux signes plus signifiant que l'échantillon a été traité à la DNase. Le reste est jeté.
+\item RÃ©cupÃ©rer le surnageant (prendre $24$ \micro L) et les placer dans des nouveaux tubes $1.5$ mL, ceux notÃ©s avec deux signes plus signifiant que l'Ã©chantillon a Ã©tÃ© traitÃ© Ã  la DNase. Le reste est jetÃ©.
 
-\item Aliquoter dans de nouveaux tubes ($1.5$ mL) $2$ \micro L, ceux notés ``Ag-Ap'' pour ``Agilent après'' qui seront analysés au Bioanalyzer\textsuperscript{\textregistered}.
+\item Aliquoter dans de nouveaux tubes ($1.5$ mL) $2$ \micro L, ceux notÃ©s ``Ag-Ap'' pour ``Agilent aprÃ¨s'' qui seront analysÃ©s au Bioanalyzer\textsuperscript{\textregistered}.
 
-\item Passer les échantillons au NanoDrop\textsuperscript{\textregistered} en prenant $2$ \micro L.
+\item Passer les Ã©chantillons au NanoDrop\textsuperscript{\textregistered} en prenant $2$ \micro L.
 
-\item Il ne reste donc que $20$ \micro L d'échantillon. Rajouter $80$ \micro L d'eau pour avoir un volume final de $100$ \micro L. 
+\item Il ne reste donc que $20$ \micro L d'Ã©chantillon. Rajouter $80$ \micro L d'eau pour avoir un volume final de $100$ \micro L. 
 
 \end{description}
 
@@ -386,39 +384,39 @@ Réaliser ces dilutions dans des nouveaux tubes eppendorf\textsuperscript{\textre
 
 \begin{description}
 
-\item Prendre les échantillons de $100$ \micro L. Ajouter $300$ \micro L de Tampon de lyse (Lysis Buffer), car il y a des sels qui favorisent la précipitation. 
+\item Prendre les Ã©chantillons de $100$ \micro L. Ajouter $300$ \micro L de Tampon de lyse (Lysis Buffer), car il y a des sels qui favorisent la prÃ©cipitation. 
 
-\item Nous avons donc $400$ \micro L. Ajouter $1$ volume d'éthanol $70$ \%, donc $400$ \micro L. Nous avons alors $800$ \micro L. Homogénéiser avec une pipette.
+\item Nous avons donc $400$ \micro L. Ajouter $1$ volume d'Ã©thanol $70$ \%, donc $400$ \micro L. Nous avons alors $800$ \micro L. HomogÃ©nÃ©iser avec une pipette.
 
-\item Transférer sur les colonnes filtres $400$ \micro L et centrifuger à $12.000$ g pendant $15$ secondes. Jeter le liquide dans un becher. Répéter l'opération une deuxième fois pour pouvoir passer les $800$ \micro L.
+\item TransfÃ©rer sur les colonnes filtres $400$ \micro L et centrifuger Ã  $12.000$ g pendant $15$ secondes. Jeter le liquide dans un becher. RÃ©pÃ©ter l'opÃ©ration une deuxiÃ¨me fois pour pouvoir passer les $800$ \micro L.
 
 \item Ajouter $700$  \micro L de Tampon 1 (Buffer 1).
 
-\item Centrifuger à $12.000$ G pendant $15$ secondes. Jeter le liquide dans un becher.
+\item Centrifuger Ã  $12.000$ G pendant $15$ secondes. Jeter le liquide dans un becher.
 
 \item Prendre des nouvelles colonnes. Ajouter $500$ \micro L de Tampon 2 (Buffer 2).
 
-\item Centrifuger à $12.000$ G pendant $15$ secondes. Jeter le liquide dans un becher.
+\item Centrifuger Ã  $12.000$ G pendant $15$ secondes. Jeter le liquide dans un becher.
 
 \item Ajouter une nouvelle fois $500$ \micro L de Tampon 2 (Buffer 2).
 
-\item Centrifuger à $12.000$ G pendant $15$ secondes. Jeter le liquide dans un becher.
+\item Centrifuger Ã  $12.000$ G pendant $15$ secondes. Jeter le liquide dans un becher.
 
-\item Refaire une nouvelle centrifugation à vide pour sécher les échantillons pendant $2$ minutes à $12.000$ G.
+\item Refaire une nouvelle centrifugation Ã  vide pour sÃ©cher les Ã©chantillons pendant $2$ minutes Ã  $12.000$ G.
 
-\item Mettre les colonnes filtres dans un tube eppendorf\textsuperscript{\textregistered} de $1.5$ ml, ceux notés ``Fin'' pour ``Final'' sur les tubes. Mettre $30$ \micro L de RNase-free. 
+\item Mettre les colonnes filtres dans un tube eppendorf\textsuperscript{\textregistered} de $1.5$ ml, ceux notÃ©s ``Fin'' pour ``Final'' sur les tubes. Mettre $30$ \micro L de RNase-free. 
 
 \item Incuber pendant $2$ minutes. 
 
-\item Centrifuger à $12.000$ G pendant $2$ secondes.
+\item Centrifuger Ã  $12.000$ G pendant $2$ secondes.
 
-\item Faire des aliquots de $2$ \micro L dans des tubes eppendorf\textsuperscript{\textregistered} de $1.5$ ml, ceux notés ``Ap. Pu'' pour ``Après Purification'' sur les tubes.
+\item Faire des aliquots de $2$ \micro L dans des tubes eppendorf\textsuperscript{\textregistered} de $1.5$ ml, ceux notÃ©s ``Ap. Pu'' pour ``AprÃ¨s Purification'' sur les tubes.
 
-\item Passer les échantillons au NanoDrop\textsuperscript{\textregistered} en prenant $2$ \micro L. Le volume final sera donc de $26$ \micro L.
+\item Passer les Ã©chantillons au NanoDrop\textsuperscript{\textregistered} en prenant $2$ \micro L. Le volume final sera donc de $26$ \micro L.
 
 \end{description}
 
-\section{Obtention de résultats préliminaires au Bioanalyzer\textsuperscript{\textregistered}}
+\section{Obtention de rÃ©sultats prÃ©liminaires au Bioanalyzer\textsuperscript{\textregistered}}
 
 \subsection{Via Agilent 2100 Bioanalyzer\textsuperscript{\textregistered} de Agilent Technologies\texttrademark}
 
@@ -435,34 +433,34 @@ Réaliser ces dilutions dans des nouveaux tubes eppendorf\textsuperscript{\textre
      \centering
    \includegraphics[width=5 cm]{rn2}
   \end{minipage}
-  \caption{BioAnalyser, seringue et puce, kit de réactifs}
+  \caption{BioAnalyser, seringue et puce, kit de rÃ©actifs}
   \end{figure}
 
-Le Bioanalyzer\textsuperscript{\textregistered} est une électrophorèse capillaire à puce. La puce comprend $12$ puits pour recevoir les échantillons, $2$ puits nommés par un ``G'' entouré de blanc, un puits avec un ``G'' entouré de noir et un dernier puits pour mettre le marqueur (échelle). \\
+Le Bioanalyzer\textsuperscript{\textregistered} est une Ã©lectrophorÃ¨se capillaire Ã  puce. La puce comprend $12$ puits pour recevoir les Ã©chantillons, $2$ puits nommÃ©s par un ``G'' entourÃ© de blanc, un puits avec un ``G'' entourÃ© de noir et un dernier puits pour mettre le marqueur (Ã©chelle). \\
 
-Penser à sortir le kit Agilent Technologie\textsuperscript{\textregistered} du frigidaire $30$ minutes avant, car il y a du DMSO qui cristallise à $4$\degre C. Le tube rouge contient le gel, le tube bleu du DYE (qui est photosensible, donc ne pas l'exposer à la lumière et le laisser dans de l'aluminium) et le tube vert comprend le marqueur qui est une petite séquence à mettre dans tous les puits pour l'alignement.
+Penser Ã  sortir le kit Agilent Technologie\textsuperscript{\textregistered} du frigidaire $30$ minutes avant, car il y a du DMSO qui cristallise Ã  $4$\degre C. Le tube rouge contient le gel, le tube bleu du DYE (qui est photosensible, donc ne pas l'exposer Ã  la lumiÃ¨re et le laisser dans de l'aluminium) et le tube vert comprend le marqueur qui est une petite sÃ©quence Ã  mettre dans tous les puits pour l'alignement.
 
 \begin{description}
 	
 \item Dans une nouvelle puce, mettre le marqueur de taille dans tous les puits.
 
-\item Il faut tout ensuite décontaminer les électrodes à l'aide des $2$ puces de nettoyage (mettre du RNase zap (= RNase Away = RNase Zoé) dans l'une et de l'eau ultra pure dans l'autre, et mettre le liquide en bas à droite à la place de l'échelle sur la puce). Ne pas mettre plus de $350$ \micro L sinon cela débordera et cristallisera dans l'appareil. La puce avec du RNase zap doit rester dans l'appareil pendant une minute, et la puce avec de l'eau ultra pure pendant $10$ secondes. Laisser ensuite l'appareil ouvert durant $10$ secondes afin que le reste d'eau s'évapore. Refermer l'appareil.
+\item Il faut tout ensuite dÃ©contaminer les Ã©lectrodes Ã  l'aide des $2$ puces de nettoyage (mettre du RNase zap (= RNase Away = RNase ZoÃ©) dans l'une et de l'eau ultra pure dans l'autre, et mettre le liquide en bas Ã  droite Ã  la place de l'Ã©chelle sur la puce). Ne pas mettre plus de $350$ \micro L sinon cela dÃ©bordera et cristallisera dans l'appareil. La puce avec du RNase zap doit rester dans l'appareil pendant une minute, et la puce avec de l'eau ultra pure pendant $10$ secondes. Laisser ensuite l'appareil ouvert durant $10$ secondes afin que le reste d'eau s'Ã©vapore. Refermer l'appareil.
 
-\item Prendre le gel (tube rouge), qui doit être filtré. Un gel filtré se garde pendant un mois. Alicoter $65$ \micro L et mettre $1$ \micro L de DYE préalablement vortexé (tube bleu), puis mettre le tube dans de l'aluminium. Avec le DYE, ce réactif ne se garde qu'une seule journée (avec $65$ \micro L on peut faire $2$ gels). Faire une centrifugation pendant $10$ minutes à 13.000 G à température ambiante.  
+\item Prendre le gel (tube rouge), qui doit Ãªtre filtrÃ©. Un gel filtrÃ© se garde pendant un mois. Alicoter $65$ \micro L et mettre $1$ \micro L de DYE prÃ©alablement vortexÃ© (tube bleu), puis mettre le tube dans de l'aluminium. Avec le DYE, ce rÃ©actif ne se garde qu'une seule journÃ©e (avec $65$ \micro L on peut faire $2$ gels). Faire une centrifugation pendant $10$ minutes Ã  13.000 G Ã  tempÃ©rature ambiante.  
 
-\item Mettre les échantillons à dénaturer à $70$ \degre pendant $2$ minutes, puis les placer dans la glace pour stopper la dénaturation.
+\item Mettre les Ã©chantillons Ã  dÃ©naturer Ã  $70$ \degre pendant $2$ minutes, puis les placer dans la glace pour stopper la dÃ©naturation.
 
-\item Placer la puce sur la station de priming (Chip Printing Station \textsuperscript{\textregistered}), attention de ne pas mettre les doigts sous la puce. Mettre $9$ \micro L de gel dans le puits avec le ``G noir''. Mettre la seringue sur $1$ mL puis fermer la station. Baisser doucement le piston, attendre $30$ secondes, enlever la sécurité, attendre $5$ secondes, puis remonter le piston jusqu'à $1$ mL. Appuyer sur le côté gauche puis ouvrir en enlevant la sécurité (pour éviter les explosions de gel). Puis mettre $9$ \micro L de gel par puits dans les deux autres puits avec le ``G''. Placer $5$ \micro L de Marker dans tous les puits y compris dans le puits prévu pour recevoir le marqueur de taille.
+\item Placer la puce sur la station de priming (Chip Printing Station \textsuperscript{\textregistered}), attention de ne pas mettre les doigts sous la puce. Mettre $9$ \micro L de gel dans le puits avec le ``G noir''. Mettre la seringue sur $1$ mL puis fermer la station. Baisser doucement le piston, attendre $30$ secondes, enlever la sÃ©curitÃ©, attendre $5$ secondes, puis remonter le piston jusqu'Ã  $1$ mL. Appuyer sur le cÃ´tÃ© gauche puis ouvrir en enlevant la sÃ©curitÃ© (pour Ã©viter les explosions de gel). Puis mettre $9$ \micro L de gel par puits dans les deux autres puits avec le ``G''. Placer $5$ \micro L de Marker dans tous les puits y compris dans le puits prÃ©vu pour recevoir le marqueur de taille.
 
-\item Mettre $1$ \micro L d'échantillon dans les puits à échantillons. Puis mettre 1 \micro L de marqueur de taille dans les puits à échantillons.
+\item Mettre $1$ \micro L d'Ã©chantillon dans les puits Ã  Ã©chantillons. Puis mettre 1 \micro L de marqueur de taille dans les puits Ã  Ã©chantillons.
 
-\item Mettre la puce dans le IKA MS3 Vortexer\textsuperscript{\textregistered} pendant $1$ minute à 24.000 RPM (l'appareil s'arrêtera tout seul). Mettre ensuite la puce dans l'Agilent 2100 Bioanalyzer\textsuperscript{\textregistered}.
+\item Mettre la puce dans le IKA MS3 Vortexer\textsuperscript{\textregistered} pendant $1$ minute Ã  24.000 RPM (l'appareil s'arrÃªtera tout seul). Mettre ensuite la puce dans l'Agilent 2100 Bioanalyzer\textsuperscript{\textregistered}.
 
-\item À l'aide de l'interface numérique, aller dans ``Assay'', puis ``RNA'', puis ``Eucaryote Total RNA Nano'' et enfin sur ``Start''.
+\item Ã€ l'aide de l'interface numÃ©rique, aller dans ``Assay'', puis ``RNA'', puis ``Eucaryote Total RNA Nano'' et enfin sur ``Start''.
 
-\item La fluorescence (ordonnée sur le graphique) correspond à la quantité d'ARN. Si il y a un double pic, il pourrait y avoir  un problème de dénaturation. Le premier pic correspond au Marker. Il devrait y avoir deux pics chez les mollusques (un pour l'ARN 16S et une pour le 28S), mais l'ARN 28S est auto-catalytique chez les mollusques, on ne le voit donc jamais. La valeur de confiance des résultats correspond au RIN (qui est une échelle de $1$ à $10$) se trouve dans l'onglet ``Data'', puis dans ``Chip Summary''. 
+\item La fluorescence (ordonnÃ©e sur le graphique) correspond Ã  la quantitÃ© d'ARN. Si il y a un double pic, il pourrait y avoir  un problÃ¨me de dÃ©naturation. Le premier pic correspond au Marker. Il devrait y avoir deux pics chez les mollusques (un pour l'ARN 16S et une pour le 28S), mais l'ARN 28S est auto-catalytique chez les mollusques, on ne le voit donc jamais. La valeur de confiance des rÃ©sultats correspond au RIN (qui est une Ã©chelle de $1$ Ã  $10$) se trouve dans l'onglet ``Data'', puis dans ``Chip Summary''. 
 
-\item Il faut ensuite nettoyer l'appareil avec la même procédure qu'au deuxième alinéa. Aspirer ensuite avec une pipette l'eau dans les puces.
+\item Il faut ensuite nettoyer l'appareil avec la mÃªme procÃ©dure qu'au deuxiÃ¨me alinÃ©a. Aspirer ensuite avec une pipette l'eau dans les puces.
 
 \end{description}
 
